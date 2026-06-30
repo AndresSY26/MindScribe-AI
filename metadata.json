@@ -1,0 +1,6 @@
+{
+  "name": "MindScribe AI",
+  "description": "Diario íntimo con análisis de sentimientos y consejos motivacionales por IA, informes PDF, autenticación biométrica, recordatorios y sincronización con Supabase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

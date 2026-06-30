@@ -1,0 +1,54 @@
+# Built artifacts
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+/build/
+/*/build/
+
+# Gradle files
+.gradle/
+build/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+# Local configuration files
+local.properties
+
+# Secrets & Environment variables
+.env
+.env.local
+.env.*.local
+
+# Keystore files (do not commit release keystores)
+*.jks
+*.p12
+*.pem
+# debug.keystore is tracked by the platform
+
+# Log files
+*.log
+
+# Crashlytics/Firebase
+crashlytics/

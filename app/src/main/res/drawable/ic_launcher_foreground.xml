@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Sophisticated background accent inside safe zone -->
+    <path
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"
+        android:fillColor="#15FFFFFF"/>
+
+    <!-- Open Book / Journal representation, scaled & centered -->
+    <group
+        android:translateX="26"
+        android:translateY="38">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M51 5c-2.22,-1.8 -4.9,-2 -8,-2 -2.96,0 -5.5.2 -8 2a10.2 10.2 0,0 0,-8,-2c-3.1 0,-5.78 .2,-8 2a2 2 0,0 0,-1 1.7v26.6c0,1.1 .9,2 2,2 .3,0 .6,-1 .9,-2 2.1,-1 4.3,-1.3 7.1,-1.3 3.1,0 5.78,.4 8,2a10.2 10.2 0,0 0,8,-2c2.22,-1.6 4.9,-2 8,-2 2.8,0 5 .4 7.1,1.3 .3,0 .6,1 .9,1a2 2 0,0 0,2,-2V6.7a2 2 0,0 0,-1,-1.7zM19 36c-2.22,-1.6 -4.9,-2 -8,-2 -2.2,0 -3.9,.2 -5 .6V8.4c1.1,-.4 2.8,-.6 5,-.6 3.1,0 5.78,.4 8,2v22.2zM43 34.6c-1.1,-.4 -2.8,-.6 -5,-.6 -3.1,0 -5.78,.4 -8,2V11.8c2.22,-1.6 4.9,-2 8,-2 2.2,0 3.9,.2 5,.6v24.2z" />
+    </group>
+
+    <!-- AI Magic Sparkle hovering above the journal, centered & glowing -->
+    <group
+        android:translateX="42"
+        android:translateY="14">
+        <path
+            android:fillColor="#FFD700"
+            android:pathData="M12 0 L15.5 8 L24 11.5 L15.5 15 L12 24 L8.5 15 L0 11.5 L8.5 8 Z" />
+    </group>
+
+    <!-- Left secondary sparkle -->
+    <group
+        android:translateX="24"
+        android:translateY="26">
+        <path
+            android:fillColor="#FF70FF"
+            android:pathData="M6 0 L7.7 4 L12 5.7 L7.7 7.4 L6 11.5 L4.3 7.4 L0 5.7 L4.3 4 Z" />
+    </group>
+
+    <!-- Right secondary sparkle -->
+    <group
+        android:translateX="76"
+        android:translateY="28">
+        <path
+            android:fillColor="#2196F3"
+            android:pathData="M5 0 L6.5 3.3 L10 4.8 L6.5 6.3 L5 9.6 L3.5 6.3 L0 4.8 L3.5 3.3 Z" />
+    </group>
+</vector>
